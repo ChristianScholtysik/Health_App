@@ -1,0 +1,39 @@
+.footer-wrapper {
+  display: flex;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  background-color: #1a3129;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 16vh;
+}
+
+.footer-tags {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 2rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gototop {
+  margin-left: 10vw;
+  width: 30vw;
+  display: flex;
+}
+.footer-p {
+  color: white;
+}
+
+img {
+  height: 2rem;
+  margin: 0 15px;
+}

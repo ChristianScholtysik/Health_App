@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Urbanist";
+  src: url("/Fonts/Urbanist/Urbanist-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Urbanist";
+  background-color: #fafdf2;
+}
+
+.calculator-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 0.7rem;
+  width: 50vw;
+  text-align: center;
+}
+
+.calculator-wrapper {
+  background-color: #f6fbe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 78%;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+.input-wrapper {
+  margin: 0 25px;
+}
+
+#bodysize,
+#age,
+#weight,
+#activity,
+select {
+  display: flex;
+
+  margin: 5px 0;
+  width: 30vw;
+  height: 1.6rem;
+  border-radius: 5px;
+  border: none;
+}
+
+select {
+  font-size: 0.7rem;
+}
+
+.calculate-btn {
+  border: none;
+  border-radius: 10px;
+  height: 2.7rem;
+  width: 20rem;
+  background: #cbea7b;
+}
+
+.gender {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.result-table {
+  width: 50vw;
+  background-color: #fafdf2;
+  border-radius: 5px;
+  border: solid 2px #cbea7b;
+  margin-bottom: 4rem;
+  font-size: 0.7rem;
+}
+
+table th {
+  text-align: left;
+}

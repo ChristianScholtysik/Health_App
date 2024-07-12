@@ -1,0 +1,30 @@
+import "./Hero.css";
+
+const Hero = () => {
+  return (
+    <div className="hero-wrapper">
+      <div className="hero-img"></div>
+      <div className="hero-text">
+        <h2>Transform Your ❤️ Health with</h2>
+        <h1>Personalized Nutrition Coaching</h1>
+        <p>
+          Welcome to Nutritionist, your partner in achieving optimal health
+          through personalized nutrition coaching. Our certified nutritionists
+          are here to guide you on your weight loss journey, providing
+          customized plans and ongoing support. Start your transformation today
+          and experience the power of personalized nutrition coaching.
+        </p>
+        <div className="button-wrapper">
+          <button className="btn-starter">Get Starter Today</button>
+          <button className="btn-book">Book A Demo</button>
+        </div>
+        <div className="customer-div">
+          <img src="/public/Container.png" alt="" />
+          <p>430+ Happy Customers</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

@@ -1,0 +1,61 @@
+.hero-img {
+  height: 100vh;
+  width: 50vw;
+  background-image: url("/public/Image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50px;
+}
+
+.hero-wrapper {
+  display: flex;
+  margin-bottom: 12vh;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 2rem 2rem;
+}
+
+.hero-text h2 {
+  text-decoration: underline;
+  text-decoration-color: #cbea7b;
+  text-underline-offset: 10px;
+}
+
+.btn-starter {
+  border: none;
+  border-radius: 10px;
+  height: 2.7rem;
+  width: 8.5rem;
+  background: #cbea7b;
+  margin-right: 20px;
+}
+
+.btn-book {
+  border: none;
+  border-radius: 10px;
+  height: 2.7rem;
+  width: 8.5rem;
+  background: #f6fbe9;
+}
+
+.customer-div {
+  display: flex;
+  justify-content: left;
+  margin-top: 4rem;
+}
+
+.customer-div img {
+  width: 6vw;
+  height: 6.5vh;
+}
+
+.customer-div p {
+  display: flex;
+  align-items: center;
+  width: 9vw;
+}
