@@ -30,6 +30,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 78%;
+  margin-bottom: 15vh;
 }
 
 .input-fields {
