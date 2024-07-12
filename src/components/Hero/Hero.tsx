@@ -19,7 +19,7 @@ const Hero = () => {
           <button className="btn-book">Book A Demo</button>
         </div>
         <div className="customer-div">
-          <img src="/public/Container.png" alt="" />
+          <img src="/Container.svg" alt="" />
           <p>430+ Happy Customers</p>
         </div>
       </div>
