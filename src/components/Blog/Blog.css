@@ -28,6 +28,7 @@
   align-items: center;
   background-color: #f6fbe9;
   margin: 0 2vw 0 55vw;
+  padding-top: 3vw;
 }
 
 .blog-img2 {
@@ -38,6 +39,7 @@
   align-items: center;
   background-color: #f6fbe9;
   margin: 0 55vw 0 0;
+  padding-top: 3vw;
 }
 
 .blog-image {
