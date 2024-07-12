@@ -13,17 +13,24 @@ const Blog = () => {
         <div className="img-wrapper">
           <div className="blog-img">
             <img src="/Image (2).svg" alt="" className="blog-image" />
-            <p></p>
-            <h5></h5>
-            <p></p>
-            <img src="/Sub Container.svg" alt="" className="bottom-img" />
+            <p>Weight Loss</p>
+            <h5>The Benefits of Hydration for Weight Loss</h5>
+            <p>
+              Discover how staying hydrated can support your weight loss goals
+              and improve overall health.
+            </p>
+            <img src="/Sub Container (1).svg" alt="" className="bottom-img" />
           </div>
           <div className="blog-img2">
             <img src="/Image (1).svg" alt="" className="blog-image" />
-            <p></p>
-            <h5></h5>
-            <p></p>
-            <img src="/Sub Container (1).svg" alt="" className="bottom-img" />
+            <p>Mindful Eating</p>
+            <h5>Cultivating a Healthy Relationship with Food</h5>
+            <p>
+              Learn how practicing mindful eating can help you develop a
+              healthier relationship with food and improve your overall
+              well-being.
+            </p>
+            <img src="/Sub Container.svg" alt="" className="bottom-img" />
           </div>
         </div>
       </div>
