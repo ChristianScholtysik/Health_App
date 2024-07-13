@@ -26,9 +26,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f6fbe9;
+  /* background-color: #f6fbe9; */
+  background-color: #eef3e0;
   margin: 0 2vw 0 55vw;
   padding-top: 3vw;
+  border-radius: 15px;
 }
 
 .blog-img p,
@@ -53,9 +55,11 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f6fbe9;
+  /* background-color: #f6fbe9; */
+  background-color: #eef3e0;
   margin: 0 55vw 0 0;
   padding-top: 3vw;
+  border-radius: 15px;
 }
 
 .blog-image {

@@ -18,17 +18,19 @@ nav {
   padding: 0 2rem;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #ffffff;
   font-size: 0.7rem;
   margin: 0 15px;
+  cursor: pointer;
 }
 
 .contact-button {
   background-color: #cbea7b;
   border-radius: 8px;
   padding: 14px 24px;
+  cursor: pointer;
 }
 
 img {

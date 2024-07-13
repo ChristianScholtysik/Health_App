@@ -29,7 +29,7 @@ const CalorieCalculcator = () => {
   };
 
   return (
-    <div className="calculator-div">
+    <div className="calculator-div" id="calorieCalculator">
       <h2>Test your daily Calorie Requirement</h2>
       <p>
         To determine your daily calorie requirement, we need some information

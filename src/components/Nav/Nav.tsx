@@ -8,11 +8,11 @@ const Header = () => {
         <nav>
           <div className="nav-tags">
             <a href="#">Home</a>
-            <a href="">About</a>
-            <a href="">Team</a>
-            <a href="">Process</a>
-            <a href="">Pricing</a>
-            <a href="">Blog</a>
+            <a href="#calorieCalculator">About</a>
+            <a href="#calorieCalculator">Team</a>
+            <a href="#calorieCalculator">Process</a>
+            <a href="#calorieCalculator">Pricing</a>
+            <a href="#calorieCalculator">Blog</a>
           </div>
           <button className="contact-button">Contact Us</button>
         </nav>

@@ -16,8 +16,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   padding: 2rem 2rem;
+}
+
+.hero-text p {
+  text-align: left;
 }
 
 .hero-text h2 {
@@ -26,21 +29,44 @@
   text-underline-offset: 10px;
 }
 
-.btn-starter {
+.button-wrapper {
+  display: flex;
+}
+
+#btn-starter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 10px;
   height: 2.7rem;
   width: 8.5rem;
   background: #cbea7b;
   margin-right: 20px;
+  cursor: pointer;
+}
+#btn-starter a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 
-.btn-book {
+#btn-book a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+#btn-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 10px;
   height: 2.7rem;
   width: 8.5rem;
-  background: #f6fbe9;
+  background: #e9eedc;
+  cursor: pointer;
 }
 
 .customer-div {

@@ -15,8 +15,16 @@ const Hero = () => {
           and experience the power of personalized nutrition coaching.
         </p>
         <div className="button-wrapper">
-          <button className="btn-starter">Get Starter Today</button>
-          <button className="btn-book">Book A Demo</button>
+          <div id="btn-starter">
+            <a href="#calorieCalculator">Get Starter Today</a>
+          </div>
+
+          {/* <button className="btn-starter">Get Starter Today</button> */}
+          {/* <button className="btn-starter">Get Starter Today</button> */}
+          {/* <button className="btn-book">Book A Demo</button> */}
+          <div id="btn-book">
+            <a href="#calorieCalculator">Book A Demo</a>
+          </div>
         </div>
         <div className="customer-div">
           <img src="/Container.svg" alt="" />
