@@ -16,7 +16,9 @@ const Footer = () => {
           </div>
           <div className="gototop">
             <p className="footer-p">Go To Top</p>
-            <img src="/Button.svg" alt="" />
+            <a href="#">
+              <img src="/Button.svg" alt="" />
+            </a>
           </div>
         </section>
       </footer>
