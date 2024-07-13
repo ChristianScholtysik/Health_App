@@ -26,11 +26,17 @@ nav a {
   cursor: pointer;
 }
 
-.contact-button {
+#contact-button {
   background-color: #cbea7b;
   border-radius: 8px;
-  padding: 14px 24px;
+  padding: 12px 12px;
   cursor: pointer;
+}
+
+#contact-button a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
 img {

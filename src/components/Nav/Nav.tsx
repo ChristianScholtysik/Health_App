@@ -14,7 +14,10 @@ const Header = () => {
             <a href="#calorieCalculator">Pricing</a>
             <a href="#calorieCalculator">Blog</a>
           </div>
-          <button className="contact-button">Contact Us</button>
+          <div id="contact-button">
+            <a href="#calorieCalculator">Contact Us</a>
+          </div>
+          {/* <button className="contact-button">Contact Us</button> */}
         </nav>
       </header>
     </div>
