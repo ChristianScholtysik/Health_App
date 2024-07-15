@@ -1,9 +1,27 @@
+import Dark from "./Dark";
 import "./Hero.css";
 
-const Hero = () => {
+interface HeroProps {
+  dark: boolean;
+
+  setDark: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Hero: React.FC<HeroProps> = (props) => {
+  console.log(props);
+
+  const toggleMode = () => {
+    props.setDark((pizza) => !pizza);
+  };
   return (
     <div className="hero-wrapper">
       <div className="hero-img"></div>
+      <div className="toogleDarkMode" onClick={toggleMode}>
+        <p className="dayNight para">
+          {props.dark ? "Light" : "Dark"}
+          <Dark />
+        </p>
+      </div>
       <div className="hero-text">
         <h2>Transform Your ❤️ Health with</h2>
         <h1>Personalized Nutrition Coaching</h1>

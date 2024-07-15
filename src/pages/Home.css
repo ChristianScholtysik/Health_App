@@ -1,0 +1,29 @@
+.dark {
+  color: white;
+  background-color: #1a3129;
+  cursor: pointer;
+}
+
+.dark svg {
+  fill: rgb(255, 255, 255);
+}
+
+.dark .blog-img {
+  background-color: #0e1b16;
+}
+
+.dark .blog-img2 {
+  background-color: #0e1b16;
+}
+
+.dark .calculator-wrapper {
+  background-color: #152820;
+}
+
+.dark .result-table {
+  background-color: #1a3228;
+}
+
+.dark .icon {
+  fill: #ffffff;
+}
