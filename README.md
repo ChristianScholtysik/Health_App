@@ -2,6 +2,8 @@
 
 This is a Health App built with React. The app features several components including a blog, a calorie calculator, a hero section, a header, and a footer.
 
+- You can try the Calorie Calculator and switch Dark/Light mode!!
+
 ## Project Link
 
 You can view the live project here: [Health App Project](https://health-app-project.netlify.app/)
