@@ -8,6 +8,8 @@ This is a Health App built with React. The app features several components inclu
 
 You can view the live project here: [Health App Project](https://health-app-project.netlify.app/)
 
+You can view the Figma file here: [Figma](<https://www.figma.com/design/WmxWuNPKP9c1UzKaF3pJ8Q/Health-APP-mit-Kcal-Rechner-(Copy)?node-id=18-528&t=YRop6omz2jtGpUwu-0>)
+
 ## Screenshot
 
 ![Health App Screenshot](./src/assets/Health-App.png)
